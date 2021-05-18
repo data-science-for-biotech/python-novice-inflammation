@@ -1,6 +1,6 @@
 ---
 title: Visualizing Tabular Data
-teaching: 30
+teaching: 25
 exercises: 20
 questions:
 - "How can I visualize tabular data in Python?"
