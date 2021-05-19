@@ -20,13 +20,12 @@ and in [Anaconda documentation][anaconda-install].
 
 ## Obtain lesson materials
 
-1. Download [python-novice-inflammation-data.zip][zipfile1]
-        and [python-novice-inflammation-code.zip][zipfile2].
-2. Create a folder called `swc-python` on your Desktop.
-3. Move downloaded files to `swc-python`.
+1. Download [exercises.zip][zipfile]
+2. Create a folder called `exercises` on your Desktop.
+3. Move downloaded files to `exercises`.
 4. Unzip the files.
 
-You should see two folders called `data` and `code` in the `swc-python` directory on your
+You should see two folders called `data` and `code` in the `exercises` directory on your
 Desktop.
 
 ## Launch Python interface
@@ -54,7 +53,7 @@ If you installed Anaconda, you can launch a notebook in two ways:
 > Anaconda will open a new browser window or tab with a Notebook Dashboard showing you the
 > contents of your Home (or User) folder.
 > 3. Navigate to the `data` directory by clicking on the directory names leading to it:
-> `Desktop`, `swc-python`, then `data`:
+> `Desktop`, `exercises`, then `data`:
 > ![Anaconda Navigator Notebook directory](
 {{ page.root }}{% link fig/jupyter-notebook-data-directory.png %})
 > 4. Launch the notebook by clicking on the "New" button and then selecting "Python 3":
@@ -70,7 +69,7 @@ If you installed Anaconda, you can launch a notebook in two ways:
 > > If you're using a Unix shell application, such as Terminal app in macOS, Console or Terminal
 > > in Linux, or [Git Bash][gitbash] on Windows, execute the following command:
 > > ~~~
-> > cd ~/Desktop/swc-python/data
+> > cd ~/Desktop/exercises/data
 > > ~~~
 > > {: .language-bash}
 > {: .solution}
@@ -81,7 +80,7 @@ If you installed Anaconda, you can launch a notebook in two ways:
 > > <kbd>Return</kbd>. In the Command Prompt, use the following command to navigate to
 > > the `data` folder:
 > > ~~~
-> > cd /D %userprofile%\Desktop\swc-python\data
+> > cd /D %userprofile%\Desktop\exercises\data
 > > ~~~
 > > {: .source}
 > {: .solution}
@@ -143,5 +142,4 @@ winpty python
 [anaconda-instructions]: https://carpentries.github.io/workshop-template/#python
 [anaconda-website]: https://www.anaconda.com/
 [gitbash]: https://gitforwindows.org
-[zipfile1]: {{ page.root }}/data/python-novice-inflammation-data.zip
-[zipfile2]: {{ page.root }}/code/python-novice-inflammation-code.zip
+[zipfile]: {{ page.root }}/data/exercises.zip
