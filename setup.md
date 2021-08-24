@@ -21,11 +21,10 @@ and in [Anaconda documentation][anaconda-install].
 ## Obtain lesson materials
 
 1. Download [exercises.zip][zipfile]
-2. Create a folder called `exercises` on your Desktop.
-3. Move downloaded files to `exercises`.
-4. Unzip the files.
+2. Move downloaded files to `Desktop`.
+3. Unzip the files.
 
-You should see two folders called `data` and `code` in the `exercises` directory on your
+You should see two folders called `data` and `code` in the newly created `exercises` directory on your
 Desktop.
 
 ## Launch Python interface
